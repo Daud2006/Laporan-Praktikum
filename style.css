@@ -16,20 +16,26 @@ header {
 }
 
 nav {
-    background-color: #3b74c5;
+    background-color: #6c47d9;
     text-align: center;
     padding: 1em 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #ffe;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
 }
 
 section {
