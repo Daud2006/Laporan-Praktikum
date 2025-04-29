@@ -39,18 +39,25 @@ nav a:hover {
 }
 
 section {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 1.5em;
+    max-width: 850px;
+    margin: 3em auto;
+    padding: 2.5em;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
 }
 
 section h2 {
-    border-bottom: 2px solid #ddd;
+    border-bottom: 3px solid #d1d9e6;
     padding-bottom: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+    color: #7f5af0;
 }
 
 ul {
